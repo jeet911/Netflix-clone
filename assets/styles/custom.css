@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.bg {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+}
+
+section {
+    border-top: 8px solid rgb(61, 60, 60);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.gradient {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.logo {
+    z-index: 1;
+}
+
+.net-logo {
+    margin: 0;
+    padding: 0;
+    width: 145px;
+    background: transparent;
+}
+
+.right-header {
+    width: 210px;
+}
+
+.eng-btn {
+    border: 1px solid gray;
+    background: transparent;
+    border-radius: 4px;
+    padding: 2px 14px;
+    color: white;
+}
+
+.eng-btn:focus {
+    border: 2px solid white;
+}
+
+.eng:hover {
+    background-color: #0d6efd;
+}
+
+.hindi:hover {
+    background-color: #0d6efd;
+}
+
+.login-btn {
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 2px 16px;
+    border-radius: 4px;
+    background: rgb(229, 9, 20);
+}
+
+.center {
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-flex {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 6px;
+}
+
+.bg-input {
+    width: 70%;
+    padding: 10px 12px;
+    background: rgba(29, 28, 28, 0.582);
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.bg-input:focus {
+    outline: none;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.bg-btn {
+    width: 30%;
+    padding: 10px 12px;
+}
+
+.acc-center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.on-hover:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.top-border {
+    border-top: 1px solid black;
+}
+
+.gray {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* ----------------- signin form --------------- */
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 24px 28px;
+
+}
+
+.form-center {
+    width: 420px;
+    background: rgba(0, 0, 0, .75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sm {
+    font-size: 13px;
+}
+
+.signup {
+    color: white;
+    text-decoration: none;
+}
+
+.signup:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
+.border-none {
+    border: none;
+    color: white;
+}
+
+.border-none:focus {
+    border: none;
+    outline: none;
+    color: white;
+
+}

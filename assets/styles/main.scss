@@ -1,0 +1,28 @@
+
+$theme-colors: (
+  "primary":    rgb(229,9,20),
+  "secondary":  rgba(48, 47, 47, 0.897),
+  "light":      white,
+  "dark":       black,
+  "muted":      rgba(255,255,255,0.7)
+);
+
+$btn-padding-y-sm: 0;
+$accordion-button-focus-box-shadow: 0 0 0 transparent;
+$accordion-bg: rgba(48, 47, 47, 0.897);
+$accordion-border-color: transparent;
+// $accordion-button-focus-border-color: black;
+$accordion-icon-color: white;
+// $accordion-icon-active-color: white;
+$accordion-icon-width: 3.25rem;
+$accordion-button-icon : url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$form-feedback-icon-invalid: "";
+$form-feedback-invalid-color:#e87c03;
+$form-invalid-border-color: transparent;
+$input-focus-border-color: transparent;
+$input-focus-box-shadow: transparent;
+$form-label-color: rgba(48, 47, 47, 0.897);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
+
